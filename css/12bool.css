@@ -7,6 +7,9 @@ body [class*="col-"] {
   position: relative;
 }
 
+/* Si può usare anche una class utility per il padding, ad esempio p_5
+ma in questo caso è indifferente */
+
 /* RESET */
 *{
   margin: 0;
