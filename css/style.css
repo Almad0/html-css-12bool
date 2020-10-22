@@ -1,8 +1,9 @@
-.text p{
-  line-height: 200px;
-  text-align: center;
+p{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-.red{
-  background-color: red;
-}
+
+/* Ho usato direttamente p qui, eposition/padding sul framework solo perche in questo caso era possibile. A seconda della situazione poi si può andare nel dettaglio */

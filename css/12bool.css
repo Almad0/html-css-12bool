@@ -1,16 +1,30 @@
 /* DEBUG:  */
 body [class*="col-"] {
-  height: 200px;
   border: 1px solid black;
-  background: pink;
+  background: #FFC0CB;
+  height: 100%;
+  padding: 5px;
+  position: relative;
 }
 
+/* RESET */
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  }
+}
+
+/* NESTED */
+body [class*="col-"] > .container > [class*="col-"] {
+  background: #F07F80;
+  border: 1px solid white;
+}
+body [class*="col-"] > .container {
+  height: 100%;
+}
+
 .container{
+  height: 200px;
   max-width: 1170px;
   margin: 0 auto;
 }
@@ -97,15 +111,5 @@ body [class*="col-"] {
 .col-offset-11{
   margin-left: calc((100%/12)*11);
 }
-
-/* NESTED */
-.nest-1{
-  width: calc((100%/1)*1);
-}
-
-
-
-
-
 
 /* fin */
