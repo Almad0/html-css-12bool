@@ -1,3 +1,7 @@
+.text p{
+  line-height: 200px;
+  text-align: center;
+}
 
 .red{
   background-color: red;
